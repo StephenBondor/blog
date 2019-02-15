@@ -13,11 +13,11 @@ const Container = styled.div`
 `
 
 const Error = styled.p`
-  font-size: 6.4rem;
-  line-height: 7.2rem;
+  font-size: 3.4rem;
+  line-height: 2.2rem;
   margin-bottom: 16px;
   font-weight: bold;
-  color: ${styles.color.orange};
+  color: black;
   text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
 
   @media only screen and (min-width: ${styles.width.max}) {

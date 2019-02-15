@@ -77,7 +77,7 @@ class Main extends React.Component<Props> {
 
     return (
       <Container>
-        <Helmet title="Stephen Bondor | Blog">
+        <Helmet title="Bondor | Blog">
           <meta
             name="description"
             content={`
