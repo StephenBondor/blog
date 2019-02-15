@@ -1,4 +1,4 @@
-A place for me to write
+### My Dev Blog
 
 hEcKiNg FlIp
 
