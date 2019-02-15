@@ -77,12 +77,13 @@ class Main extends React.Component<Props> {
 
     return (
       <Container>
-        <Helmet title="Pav Sidhu | Blog">
+        <Helmet title="Stephen Bondor | Blog">
           <meta
             name="description"
             content={`
-              Hi I'm Pav, I like to design and build web, mobile and voice experiences using code.
-              I'm also a huge fan of Javascript and React. Welcome to my blog.
+            I am learning how to design and build websites at Lambda School. This is a first attempt at a blog website using tech I learned like a few hours ago.
+
+            I dont know what i am doing.
             `}
           />
         </Helmet>
@@ -93,7 +94,7 @@ class Main extends React.Component<Props> {
 
           <SidePanel>
             <Bio />
-            <Social />
+            {/* <Social /> */}
           </SidePanel>
         </Contents>
       </Container>

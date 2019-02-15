@@ -7,20 +7,20 @@ import styles from '../styles'
 
 const Container = styled.div`
   grid-column: 1 / 4;
-  clip-path: polygon(0 32px, 100% 0, 100% calc(100% - 32px), 0 100%);
-  background-color: ${styles.color.orange};
+  /* clip-path: polygon(0 32px, 100% 0, 100% calc(100% - 32px), 0 100%); */
+  background-color: lightgrey;
   padding: 32px 16px;
-  color: white;
+  color: black;
   margin-bottom: 32px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  @media only screen and (min-width: ${styles.width.medium}) {
+  /* @media only screen and (min-width: ${styles.width.medium}) {
     height: 40vh;
     min-height: 240px;
-  }
+  } */
 `
 
 const Contents = styled(Link)`

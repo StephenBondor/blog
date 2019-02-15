@@ -69,13 +69,14 @@ const Text️ = styled.p`
 
   @media only screen and (min-width: ${styles.width.medium}) {
     font-size: 1.4em;
+    font-weight: bold;
   }
 `
 
 const Footer = () => (
   <Container>
     <Contents>
-      <SocialList>
+      {/* <SocialList>
         <a href="https://medium.com/@pavsidhu">
           <SocialIcon src={mediumIcon} alt="Medium icon" />
         </a>
@@ -91,9 +92,8 @@ const Footer = () => (
         <a href="mailto:pav@pavsidhu.com">
           <SocialIcon src={emailIcon} alt="Email icon" />
         </a>
-      </SocialList>
-
-      <Text️>Made With ❤️ by Pav Sidhu</Text️>
+      </SocialList> 
+      <Text️>Made With ❤️ by Pav Sidhu</Text️> */}
     </Contents>
   </Container>
 )

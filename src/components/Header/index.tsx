@@ -31,10 +31,6 @@ const Contents = styled.div`
   }
 `
 
-const Logo = styled.img`
-  height: 100%;
-`
-
 const Menu = styled.ul`
   flex: 1;
   display: flex;
@@ -54,14 +50,14 @@ const MenuItem = styled.li`
 const Header = () => (
   <Container>
     <Contents>
-      <Link to="/" style={{ height: '100%' }}>
-        <Logo src={logo} alt="Go home" />
+      <Link to="/" style={{ height: '14px' }}>
+        Home
       </Link>
 
       <Menu>
-        <MenuItem>
-          <a href="https://pavsidhu.com">About Me</a>
-        </MenuItem>
+        {/* <MenuItem>
+          <a href="link to about me page">About Me</a>
+        </MenuItem> */}
       </Menu>
     </Contents>
   </Container>

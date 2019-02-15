@@ -22,9 +22,9 @@ const Title = styled.h1`
   line-height: 3.2rem;
   margin-bottom: 8px;
 
-  transition: transform 180ms cubic-bezier(0.16, 0.79, 0.71, 1.99);
+  /* transition: transform 180ms cubic-bezier(0.16, 0.79, 0.71, 1.99);
   transform: scale(var(--title-size));
-  transform-origin: 0 50%;
+  transform-origin: 0 50%; */
 `
 
 const Description = styled.p`
@@ -32,25 +32,15 @@ const Description = styled.p`
   line-height: 2.8rem;
 `
 
-const Highlight = styled.span`
-  background-color: ${styles.color.orange};
-  padding: 2px 4px;
-  color: white;
-  border-radius: 4px;
-  font-size: 1.4rem;
-  white-space: nowrap;
-`
-
 const Bio = () => (
   <Container>
-    <Title>Hi, I'm Pav 👋</Title>
+    <Title>Hi, I'm Stephen</Title>
     <Description>
-      I like to design and build <Highlight>web</Highlight>,{' '}
-      <Highlight>mobile</Highlight> and <Highlight>voice</Highlight> experiences
-      using code. I'm also a huge fan of <Highlight>Javascript</Highlight> and{' '}
-      <Highlight>React</Highlight>. I'm from <Highlight>Cardiff</Highlight> but
-      I'm currently studying at the{' '}
-      <Highlight>University of Birmingham</Highlight> in the United Kingdom.
+      I am learning how to design and build websites at Lambda School. This is a
+      first attempt at a blog website using tech I learned like a few hours ago.
+      <br />
+      <br />
+      I dont know what i am doing.
     </Description>
   </Container>
 )

@@ -16,8 +16,8 @@ const Container = styled.div`
 
 const Header = styled.header`
   width: 100%;
-  background-color: ${styles.color.orange};
-  clip-path: polygon(0 32px, 100% 0, 100% calc(100% - 32px), 0 100%);
+  background-color: lightgrey;
+  /* clip-path: polygon(0 32px, 100% 0, 100% calc(100% - 32px), 0 100%); */
   display: flex;
   justify-content: center;
   padding: 64px 0 56px;
@@ -31,7 +31,7 @@ const HeaderContents = styled.div`
 `
 
 const Title = styled.h1`
-  color: white;
+  color: black;
   font-size: 2.8em;
   font-weight: bold;
   margin-bottom: 8px;
@@ -43,7 +43,7 @@ const Title = styled.h1`
 
 const Subtext = styled.div`
   display: flex;
-  color: white;
+  color: black;
   font-size: 1.6em;
 `
 
