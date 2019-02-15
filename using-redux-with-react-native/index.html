@@ -1,0 +1,221 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/component---src-layouts-index-tsx-1fb4e04193a2f48d39aa.js" as="script"/><link rel="preload" href="/component---src-templates-post-tsx-8f334c35fa5d05ad2c3f.js" as="script"/><link rel="preload" href="/path---using-redux-with-react-native-169ff5781c69e50dc1a9.js" as="script"/><link rel="preload" href="/app-fc44ae6f09f614b02770.js" as="script"/><link rel="preload" href="/commons-967e5303418f76a8ed8e.js" as="script"/><style data-styled-components="bfmQFt kBuPNo eBsTPP eLxNgv iLMYHz bDBUOc gZalyC hIYXBw huQHpW VsnUC jvLTaI hGHaPP gTETVK cfkTsn kfYMzc eTkrat ideBFY kasrTC eSSqcR">
+/* sc-component-id: sc-bdVaJa */
+.kBuPNo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100%;}
+/* sc-component-id: sc-bwzfXH */
+.eBsTPP{-webkit-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;box-sizing:border-box;max-width:1200px;height:64px;padding:8px 16px;} @media only screen and (min-width:1232px){.eBsTPP{padding:8px 0;}}
+/* sc-component-id: sc-htpNat */
+.eLxNgv{-webkit-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;list-style:none;}
+/* sc-component-id: sc-ifAKCX */
+.kasrTC{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100vw;margin-top:16px;padding:16px;} @media only screen and (min-width:800px){.kasrTC{margin-top:32px;}} @media only screen and (min-width:1200px){.kasrTC{margin-top:64px;padding:16px 0;}}
+/* sc-component-id: sc-EHOje */
+.eSSqcR{-webkit-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;} @media only screen and (min-width:800px){.eSSqcR{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;max-width:1200px;}}
+/* sc-component-id: sc-global-2044037823 */
+html{height:100%;font-size:10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen, Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;} body{min-height:100%;} *{margin:0;padding:0;box-sizing:border-box;} a{-webkit-text-decoration:none;text-decoration:none;color:inherit;}
+/* sc-component-id: sc-dnqmqq */
+.bfmQFt{display:grid;min-height:100vh;grid-template-rows:auto 1fr auto;}
+/* sc-component-id: sc-iwsKbI */
+.hGHaPP{width:100%;max-width:700px;}
+/* sc-component-id: sc-gZMcBi */
+.cfkTsn{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;width:100%;padding:0 16px;}
+/* sc-component-id: sc-gqjmRU */
+.gTETVK{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;font-size:32px;margin:32px 0 48px;line-height:0px;-webkit-letter-spacing:12px;-moz-letter-spacing:12px;-ms-letter-spacing:12px;letter-spacing:12px;}
+/* sc-component-id: sc-VigVT */
+.kfYMzc{font-size:1.6em;}
+/* sc-component-id: sc-jTzLTM */
+.eTkrat{margin-left:16px;}
+/* sc-component-id: sc-fjdhpX */
+.ideBFY{width:32px;height:32px;}
+/* sc-component-id: sc-jzJRlG */
+.iLMYHz{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-width:0;}
+/* sc-component-id: sc-cSHVUG */
+.bDBUOc{width:100%;background-color:#f05f40;-webkit-clip-path:polygon(0 32px,100% 0,100% calc(100% - 32px),0 100%);clip-path:polygon(0 32px,100% 0,100% calc(100% - 32px),0 100%);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;padding:64px 0 56px;margin-bottom:32px;}
+/* sc-component-id: sc-kAzzGY */
+.gZalyC{max-width:700px;width:100%;padding:0 16px;}
+/* sc-component-id: sc-chPdSV */
+.hIYXBw{color:white;font-size:2.8em;font-weight:bold;margin-bottom:8px;} @media only screen and (min-width:1200px){.hIYXBw{font-size:3.2em;}}
+/* sc-component-id: sc-kgoBCf */
+.huQHpW{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;color:white;font-size:1.6em;}
+/* sc-component-id: sc-kGXeez */
+.VsnUC{margin:0 12px;}
+/* sc-component-id: sc-kpOJdX */
+.jvLTaI{max-width:700px;font-size:1.6em;line-height:1.8em;color:#333333;padding:0 16px;width:100%;} .jvLTaI > *:not(:first-child){margin-top:32px;} .jvLTaI h2 + *,.jvLTaI h3 + *,.jvLTaI h4 + *,.jvLTaI h5 + *,.jvLTaI h6 + *{margin-top:16px !important;} .jvLTaI ul,.jvLTaI ol{margin-left:1.1em;} .jvLTaI p a{color:#f05f40;-webkit-text-decoration:underline;text-decoration:underline;} .jvLTaI img{width:100%;border-radius:4px;} .jvLTaI img + em,.jvLTaI .gatsby-resp-image-wrapper + em{display:block;width:100%;font-size:1.4rem;font-style:normal;line-height:2rem;text-align:center;margin-top:8px;} .jvLTaI pre{overflow:scroll;padding:12px;font-size:1.4rem;border-radius:4px;} .jvLTaI pre code{padding:0;} .jvLTaI code{background-color:#f8f8f8;padding:4px 8px;font-size:14px;} .jvLTaI blockquote{border-left:8px solid #f05f40;color:#757575;font-style:italic;} .jvLTaI blockquote p{background-color:white;padding-left:8px;} .jvLTaI blockquote p:not(:first-child){margin-top:16px;} .jvLTaI iframe{border:none;}</style><title data-react-helmet="true">Using Redux with React Native | Pav Sidhu</title><link data-react-helmet="true" rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABNUlEQVR4AY3RAUQDURzH8QBD2YAGJiTBuEoZjEeTC3FQZOIFRdBoMFQPAjBiCDoQYTVBauIIZNIBgByggKmEVuu3vz9jzntv+/PFcf/P3bsb04xHRRRihZSkrCMoDKlqA4IRgMgGgEJyPIG99UVUtvNcfi4TR1LG189OT+Ltvoy/1hHwrNBtHaPzdIj3ZhnF1WwfEEagWdviRV2vN/tWwMmkk3i52EVwJjkNYjsCD6SUUEpBCAFnJo3SZg5iaZavvZUcUhMJPUC6IzdcDI635jLSn+4/sFwotOn2KR0gqgcu6tcNfP8Cl/UG1I6ArzzcPQT4+AG+OoAzv+Dzgg6g+Oyxb8DIVa2E8xOJ29Oi4gUDElKw9flYETbAGQKEsRUtElkANQrgmZ5Oaf6/HpFUe2DZNy33AN6FZ6PoR6NLAAAAAElFTkSuQmCC"/><link data-react-helmet="true" rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACe0lEQVR4AcWVAYQUURzGA4S4Cdwpzkid4DIJFm0GSXF3N4hilSlKIiYH3WZvByTEERAYQUdiECdg6Krubo+BgGgQITJ029Xe7e7X+96SqdutnfeGHj87N/Pufb//e+/N7MnRPEEiwD+IBJagsGYIYgFyElK68HAFIh2BRQEKwFYJNwUoCP9/Vq+6DIPXfnxsBOXj44TXwwikKgLIMrJvL+avlPHu6U18fTm/i+WHFdy/dRpT5YlBEmaecDv7z5OHR2Vwc6WK1moNnfU6sOFLOo062usLaL2tYev1XWyuzOPj8m1Uzk1qbUQ/UznDGczAodhZW0DzVZWzoS/Aad/uhedm7fE1fYFPL+aUwgmXSlXAE3AKub7KAuTYkVGlTWgKUL1aRhrdQeA78K/bRF7HT24MLWCfMHsCCk3amweMvsfKmhijHEPk7+LcWbjTFgMljn2U93lP+UUE0zSRJAmyLY5jBEEAy7IoIcP4y76e58H3/V84jgPDkAWkuZZAVGUdOrg/5SCDGsXYlVBmUIuiiH2IlUfAjx65+JtAGIacZrkfbNvGn63bBdqC9x+kaMBxcwkIYJdLvw3W6gA/2sB3wfSsg+S5B/ZznRI+f0mxtdN71tzu8U38vfQspICjJMBdX635eNOI5WCbYtDVjRhTM/JUyHASPriIS5ddPt9F5cIsOKaSAOFSMCxD32NIiZkzJVSECKXJqZMlLN07ryRgCVAA/FIqfYopkWiG80tJgUBVwBLEGgJ8jVNAnn9VCVdHoNuoy+p1BAwBNHA5jq5EqCFgFCHgKIb72uEZiShneKxe/eATkQ4ZngostSR9iUip8hwSpiDoIxKq7vif3oaK7hn1goYAAAAASUVORK5CYII="/><link data-react-helmet="true" rel="icon" type="image/png" sizes="48x48" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADvElEQVR4AdWYAWRVXxzH/4A/yi6iCdtrsoa2biUFb11AsdalUhm5JcmIm4rebNuFIsolqJRdYBEMMU3LpbVqW7lQIDyESenSttbetvfrfG+7t73rvdd73u+e6fDp3ds7O7/v93fO+Z173381NkVgClwBreKt3mdxX4ZhgSpYt6YLfAHVgC8wgkRIbghKzHgCU774JIwk2DQBScBKQrwSbkwJZJMwYAlIHvwVKivZgMFdMokP+fvAXgcDLqcBt1ywug3/U9ehVrqb6aCRO130aeQSfX+RCT5xP3T9KGXOpKkj3Yy+lR9yXK2McAgLBVfM+8fdMAtD/Bu50trfum0zTQyeDQTNjmdo4VUv5d700crUANFbKyI/bdHyVH/w3U/RZ+5lT9xMOSM6hwGzWObDrC++7oNIiK2Kpcl+GIJ5jIMZSWwjO7FBsa4ROMx2zSyK2cF46V0N/AbiGxhBOMWHYLxHN44lbgDZR8YQlJ3Pz67GDWisBhrq62huvCcR8WBleiBeZjXWPdB9fC/lYtnnpn13I3sZDR8jcCDFKg4/F0/siwywH2Qzo1eCIO59g8xT+0nbk4qwzms0fOskZZ+YtRjAOIm82BDoPddOutaC67KktijkDV0oKhDm7csH1yYA16FxfBeO47AbAIZhkGWJQLYNcA2C/9c0LeqnNteT716LhGN2lI2ln4PwHbIPcM/9fuwLAqF/a77vo19RkTAI067rgrB/dI+/S6VSvJtYZE/Z3rjJwyWCVNp0XS8Qb5omVdjWmtA4DNiY/moNYElhGTmWjuURZLfCBrNsmxgGXAEZh1UYqCqL2LD4W5goNwN5wbL4Z2mFaFHQeUSHAZXTAESUzGI+/1tAblXA6HMX1SrawKgwqqoWiFxYJvqxRDQvwCfuw8+tTU0+YrMagAhk9cs3PxIwHxMAZr761Cj6xc8DlMunY27Yt8DAbO4PHz5meUtoaCCchbadKj0YdGjynVcgAIFv3rapTlHQD/0LwLnQtqOFJqY99C9JR6eOB0aL04ATiih2CsdP43jm4yZwyHWdNgKzI2NuxL2HDqUPaHjewgsOqwFTQIzACGYJhgtAcvCuwW1AFZAkIB5oiM1pIitBPF7+Id5HTG4DugwDeNeILx/WpZTwTOAXDl8YUBAvKRN2ggbwU4vJq1j+UlIRJ2kTfkLiy25e/oONH4dXqfxzISXFQOz5iAsb48o0oDGKzwqYSqf8kurHK49MA4rA+yfFM5jwWMUzmHCqyLrFKoC5vDolnpdcgZnEZv0FABxlSx3o2B8AAAAASUVORK5CYII="/><meta data-react-helmet="true" name="theme-color" content="#f05f40"/><meta data-react-helmet="true" name="description" content="I’m in the middle of developing a React Native app — Revisify. Originally starting as a website to help students prepare for their exams, I’m currently moving the experience over to mobile. As this is my first React Native app, getting my head around new ideas has been challenging. The hardest thing for me since I…"/><style id="gatsby-inlined-css">pre{color:#1b1b1b;background-color:#f8f8f8}.token.cdata,.token.doctype,.token.prolog{color:#3ea7bb}.token.block-comment,.token.comment,.token.punctuation{color:#5f6364}.token.atrule,.token.attr-value,.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.keyword,.token.number,.token.property,.token.symbol,.token.tag{color:#f05f40}.token.attr-name,.token.builtin,.token.char,.token.class-name,.token.function,.token.inserted,.token.selector,.token.string{color:#3ea7bb}.token.entity,.token.important,.token.operator,.token.regex,.token.url,.token.variable{color:#9756e1}.language-css .token.string,.style .token.string{color:#3ea7bb}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.namespace{opacity:.7}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}</style></head><body><div id="___gatsby"><div class="sc-dnqmqq bfmQFt" data-reactroot="" data-reactid="1" data-react-checksum="-678141299"><!-- react-empty: 2 --><header class="sc-bdVaJa kBuPNo" data-reactid="3"><div class="sc-bwzfXH eBsTPP" data-reactid="4"><a style="height:14px;" href="/" data-reactid="5">Home</a><ul class="sc-htpNat eLxNgv" data-reactid="6"></ul></div></header><div class="sc-jzJRlG iLMYHz" data-reactid="7"><!-- react-empty: 8 --><header class="sc-cSHVUG bDBUOc" data-reactid="9"><div class="sc-kAzzGY gZalyC" data-reactid="10"><h1 class="sc-chPdSV hIYXBw" data-reactid="11">Using Redux with React Native</h1><div class="sc-kgoBCf huQHpW" data-reactid="12"><div data-reactid="13">30th January 2017</div><div class="sc-kGXeez VsnUC" data-reactid="14">•</div><div data-reactid="15">6 min read</div></div></div></header><article class="sc-kpOJdX jvLTaI" data-reactid="16"><p>I’m in the middle of developing a React Native app — Revisify. Originally starting as a website to help students prepare for their exams, I’m currently moving the experience over to mobile. As this is my first React Native app, getting my head around new ideas has been challenging. The hardest thing for me since I started has been understanding Flux and Redux. Since React Native and Redux are fairly young (about 2 years old), there is not a lot of resources on the subject, so today I’ll give you my thoughts on implementing Redux into your application.</p>
+<h3>What is Flux/Redux?</h3>
+<p><a href="https://facebook.github.io/flux/">Flux</a> is a pattern which Facebook created to manage the data of an application. Flux is <strong>not</strong> a library, it’s just an idea.</p>
+<p><a href="http://redux.js.org">Redux</a> is one of many Javascript libraries that help you create applications using the Flux architecture.</p>
+<h3>Why should you use Flux in the first place?</h3>
+<p>When learning about Redux, I didn’t understand why I should use it. To make it straightforward for you here’s a few reasons why you may want to use Redux:</p>
+<ul>
+<li>
+<p>It makes managing data and understanding data flow in your application much easier since data can only be send one way (unidirectional) rather than being like a mess, like spaghetti.</p>
+</li>
+<li>
+<p>Data that needs to be accessed in multiple parts of your application such as the user’s details can be stored easily in one place</p>
+</li>
+</ul>
+<p>If your app is very basic, you probably don’t need Redux, it all depends on your app and it’s features. Hopefully, by the end of this post, you’ll be able to understand whether Redux is for you.</p>
+<h3>How does Redux work?</h3>
+<p>Redux has one big object that contains all the data you choose to store called the <strong>state</strong>. The state for a note taking app could look like this:</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code class="language-javascript"><span class="token punctuation">{</span>
+ user<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+   name<span class="token punctuation">:</span> <span class="token string">'John Smith'</span><span class="token punctuation">,</span>
+   age<span class="token punctuation">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
+   email<span class="token punctuation">:</span> <span class="token string">'john_smith1@gmail.com'</span><span class="token punctuation">,</span>
+ <span class="token punctuation">}</span><span class="token punctuation">,</span>
+ notes<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+   <span class="token string">'remember to take the washing out'</span><span class="token punctuation">,</span>
+   <span class="token string">'pick up some apples on the way home'</span><span class="token punctuation">,</span>
+   <span class="token string">'give Jane a call'</span>
+ <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<p>You can see that there is information about the user using the app such as his name and also a list of notes that have been created. I like to think of the the state as a database.</p>
+<p>One thing which confused me was the fact that Redux state and React components state were 2 different things, just with a different name. Remember the Redux state is a way to store data whereas a React component’s state has nothing to do with Redux and simply keeps track of data which can change within a component.</p>
+<p>To manage the data in the Redux state, we have 3 things: actions, reducers and stores.</p>
+<ul>
+<li>
+<p><strong>Actions</strong> can be sent when a user presses a button, load an app, etc. They can contain information that you want to add to the state.</p>
+</li>
+<li>
+<p><strong>Reducers</strong> listen for actions. When it hears that an action has been sent to it, it updates the state.</p>
+</li>
+<li>
+<p><strong>The Store</strong> holds the Redux state and allows access and modifications to it. It’s the middleman between actions and reducers.</p>
+</li>
+</ul>
+<p>To explain what each of these does, let’s pretend we have an app with a button and a counter. Every time the user presses the button, the counter goes up by one. So if we were to build this app using Redux here is how it would work.</p>
+<ol>
+<li>The user presses the button, sending (or better known as ‘dispatching’) an action</li>
+</ol>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code class="language-javascript"><span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token comment">// this.props.count comes from the Redux state</span>
+      <span class="token operator">&lt;</span>Text<span class="token operator">></span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>count<span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>Text<span class="token operator">></span>
+
+      <span class="token comment">// This.props.addToCounter() is a function to update the counter</span>
+      <span class="token operator">&lt;</span>Button onPress<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span><span class="token function">addToCounter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token operator">></span>
+        Click Me<span class="token operator">!</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Button<span class="token operator">></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// This function provides a means of sending actions so that data in the Redux store</span>
+<span class="token comment">// can be modified. In this example, calling this.props.addToCounter() will now dispatch</span>
+<span class="token comment">// (send) an action so that the reducer can update the Redux state.</span>
+<span class="token keyword">function</span> <span class="token function">mapDispatchToProps</span><span class="token punctuation">(</span>dispatch<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    addToCounter<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token function">addToCounter</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// This function provides access to data in the Redux state in the React component</span>
+<span class="token comment">// In this example, the value of this.props.count will now always have the same value</span>
+<span class="token comment">// As the count value in the Redux state</span>
+<span class="token keyword">function</span> <span class="token function">mapStateToProps</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    count<span class="token punctuation">:</span> state<span class="token punctuation">.</span>count
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">connect</span><span class="token punctuation">(</span>mapStateToProps<span class="token punctuation">,</span> mapDispatchToProps<span class="token punctuation">)</span><span class="token punctuation">(</span>App<span class="token punctuation">)</span>
+</code></pre>
+      </div>
+<ol start="2">
+<li>When <code class="language-text">this.props.addToCounter()</code> is called, it calls the action below:</li>
+</ol>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code class="language-javascript"><span class="token comment">// We specify the name of the action as a variable</span>
+<span class="token keyword">const</span> ADD_TO_COUNTER <span class="token operator">=</span> <span class="token string">'ADD_TO_COUNTER'</span>
+
+<span class="token comment">// This is an action creator, it simply specifies the action.</span>
+<span class="token comment">// this is what we call to send an action.</span>
+<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">addToCounter</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    type<span class="token punctuation">:</span> ADD_TO_COUNTER<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<ol start="3">
+<li>A reducer hears the action <code class="language-text">ADD_TO_COUNTER</code> has been sent and adds 1 to the value of <code class="language-text">counter</code> in the state</li>
+</ol>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span>ADD_TO_COUNTER<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./actions'</span>
+
+<span class="token comment">// This is the default state of the app i.e. when the app starts for the first time</span>
+<span class="token keyword">const</span> initialState <span class="token operator">=</span> <span class="token punctuation">{</span>
+  counter<span class="token punctuation">:</span> <span class="token number">0</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// This is a reducer which listens to actions and modifies the state</span>
+<span class="token keyword">const</span> <span class="token function-variable function">reducer</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state <span class="token operator">=</span> initialState<span class="token punctuation">,</span> action<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token comment">// A switch is used since if more actions are added in the future, it will be easy</span>
+  <span class="token comment">// to be able to handle this in the reducer since we just add another 'case'.</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> ADD_TO_COUNTER<span class="token punctuation">:</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        <span class="token operator">...</span>state<span class="token punctuation">,</span>
+        counter<span class="token punctuation">:</span> state<span class="token punctuation">.</span>counter <span class="token operator">+</span> <span class="token number">1</span>
+      <span class="token punctuation">}</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+      <span class="token keyword">return</span> state
+</code></pre>
+      </div>
+<ol start="4">
+<li>As the state has been updated, the value of ‘this.props.counter’ in the React component is automatically updated to show that the button has been pressed.</li>
+</ol>
+<p>It’s quite straightforward once you get the hang of it. One thing I did not mention was the store. The store is something you setup and not need to worry about after. Here is how you should implement it:</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> reducer <span class="token keyword">from</span> <span class="token string">'./reducer'</span>
+
+<span class="token comment">// This connects the reducer to the store</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">configureStore</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> store <span class="token operator">=</span> <span class="token function">createStore</span><span class="token punctuation">(</span>reducer<span class="token punctuation">)</span>
+
+  <span class="token keyword">return</span> store
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+<p>As I said before, the store ties together actions and reducers. When you send an action using <code class="language-text">this.props.addToCounter()</code> you’re actually calling <code class="language-text">dispatch(addToCounter())</code> (this is because we set this up in <code class="language-text">mapDispatchToProps())</code>. The dispatch function comes from the store behind the scenes. The reducer is used when creating the store as you can see in the above code snippet.</p>
+<p>The last thing you need to do now is include the store into your application:</p>
+<div class="gatsby-highlight">
+      <pre class="language-javascript"><code class="language-javascript"><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> AppRegistry <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Provider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-redux'</span>
+
+<span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./app'</span>
+
+<span class="token keyword">import</span> configureStore <span class="token keyword">from</span> <span class="token string">'./store.js'</span>
+<span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token function">configureStore</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token keyword">class</span> <span class="token class-name">MyCounterApp</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token comment">// &lt;Provider> allows us to access the store for dispatching actions and receiving data from</span>
+      <span class="token comment">// the state in it's children i.e. &lt;App/></span>
+      <span class="token operator">&lt;</span>Provider store<span class="token operator">=</span><span class="token punctuation">{</span>store<span class="token punctuation">}</span><span class="token operator">></span>
+        <span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">></span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Provider<span class="token operator">></span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+AppRegistry<span class="token punctuation">.</span><span class="token function">registerComponent</span><span class="token punctuation">(</span><span class="token string">'MyCounterApp'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> MyCounterApp<span class="token punctuation">)</span>
+</code></pre>
+      </div>
+<p>And there you have it! There is a lot more to talk about such as containers vs components, keeping the state available in storage and retrieving data to and from an API using Redux but that I think that would be a lot of content to digest at once, I will leave that for another post.</p></article><div class="sc-iwsKbI hGHaPP" data-reactid="17"><div class="sc-gqjmRU gTETVK" data-reactid="18">...</div><div class="sc-gZMcBi cfkTsn" data-reactid="19"><p class="sc-VigVT kfYMzc" data-reactid="20">If you liked this post, help me spread the word:</p><a class="sc-jTzLTM eTkrat" href="https://www.facebook.com/dialog/share?app_id=961873467305779&amp;href=https://blog.pavsidhu.com/using-redux-with-react-native" target="_blank" rel="noreferrer noopener" data-reactid="21"><img class="sc-fjdhpX ideBFY" src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNDI2N0IyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KPHBhdGggZD0iTTk0LjUsMGgtODlDMi41LDAsMCwyLjUsMCw1LjV2ODljMCwzLDIuNSw1LjUsNS41LDUuNWMwLDAsMCwwLDAsMGg0Ny45VjYxLjNoLTEzVjQ2LjJoMTNWMzUuMWMwLTEyLjksNy45LTE5LjksMTkuNC0xOS45YzMuOSwwLDcuOCwwLjIsMTEuNiwwLjZ2MTMuNWgtNy45Yy02LjMsMC03LjUsMy03LjUsNy4zdjkuNmgxNWwtMS45LDE1LjFINjlWMTAwaDI1LjVjMywwLDUuNS0yLjUsNS41LTUuNWwwLDB2LTg5QzEwMCwyLjUsOTcuNSwwLDk0LjUsMEM5NC41LDAsOTQuNSwwLDk0LjUsMHoiLz4KPC9zdmc+Cg==" alt="Share on Facebook" data-reactid="22"/></a><a class="sc-jTzLTM eTkrat" href="https://twitter.com/intent/tweet?text=Using%20Redux%20with%20React%20Native%20by%20@pav_sidhu%20https://blog.pavsidhu.com/using-redux-with-react-native" target="_blank" rel="noreferrer noopener" data-reactid="23"><img class="sc-fjdhpX ideBFY" src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMURBMUYyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICA8cGF0aCBkPSJNMTAwIDE5YTQxIDQxIDAgMCAxLTExLjc4IDMuMjMgMjAuNiAyMC42IDAgMCAwIDktMTEuMzQgNDEuMzYgNDEuMzYgMCAwIDEtMTMgNSAyMC41MyAyMC41MyAwIDAgMC0zNSAxOC43QTU4LjI0IDU4LjI0IDAgMCAxIDcgMTMuMTRhMjAuNTQgMjAuNTQgMCAwIDAgNi4zNSAyNy4zOEEyMC41MiAyMC41MiAwIDAgMSA0IDM4di4yNmEyMC41MyAyMC41MyAwIDAgMCAxNi40OCAyMC4wNiAyMC43OCAyMC43OCAwIDAgMS01LjQxLjcyIDE5LjY5IDE5LjY5IDAgMCAxLTMuODYtLjM4IDIwLjUyIDIwLjUyIDAgMCAwIDE5LjE2IDE0LjI1IDQxLjE2IDQxLjE2IDAgMCAxLTI1LjQ4IDguNzdBNDMuNiA0My42IDAgMCAxIDAgODEuMzlhNTggNTggMCAwIDAgMzEuNDQgOS4yM2MzNy43NCAwIDU4LjM2LTMxLjI2IDU4LjM2LTU4LjM2bC0uMDctMi42NkE0MSA0MSAwIDAgMCAxMDAgMTl6Ii8+Cjwvc3ZnPg==" alt="Share on Twitter" data-reactid="24"/></a></div></div></div><footer class="sc-ifAKCX kasrTC" data-reactid="25"><div class="sc-EHOje eSSqcR" data-reactid="26"></div></footer></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-fc44ae6f09f614b02770.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","30862416422887":"component---src-templates-post-tsx-8f334c35fa5d05ad2c3f.js","178469467687848":"component---src-pages-404-tsx-5f9db4ba42f1c7ee2cf2.js","221374088121123":"component---src-pages-index-tsx-6d810ef6c7d2d7b5c11d.js","60335399758886":"path----557518bd178906f8d58a.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","130459981190359":"path---using-redux-with-react-native-169ff5781c69e50dc1a9.js","245742162621177":"path---the-timezone-struggle-b2ffdb245913314e347e.js","74319695738375":"path---my-react-native-app-setup-5a135956d5d8c7762b1f.js","94670357537178":"path---validating-forms-in-react-native-c9e2bc13d5f62f169809.js","22282588131289":"path---whats-happening-with-navigation-in-react-native-a424a3ea2f813394475e.js","163989879121854":"path---5-reasons-why-i-will-open-source-my-first-app-8c1a9a2e62a11f70ed5d.js","221228894578309":"path---how-i-built-my-blog-using-gatsby-and-netlify-0c2ac81172511b25f5f1.js","58879408881486":"path---docker-an-explanation-for-beginners-72e257d8b7bbdc018da3.js","186703154786247":"path---5-reasons-why-i-chose-react-native-over-traditional-app-development-4354e57fa0dbf1ec0882.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-f4ef256e9a6008d99144.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","22676092666560":"component---src-layouts-index-tsx-1fb4e04193a2f48d39aa.js"}/*]]>*/</script><script>
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-41576939-5', 'auto');
+      }
+      </script><script>/*<![CDATA[*/!function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",["/commons-967e5303418f76a8ed8e.js","/app-fc44ae6f09f614b02770.js","/path---using-redux-with-react-native-169ff5781c69e50dc1a9.js","/component---src-templates-post-tsx-8f334c35fa5d05ad2c3f.js","/component---src-layouts-index-tsx-1fb4e04193a2f48d39aa.js"])/*]]>*/</script></body></html>
