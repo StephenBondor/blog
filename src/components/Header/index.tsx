@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import styles from '../../styles'
-import logo from './logo.svg'
 
 const headerStyles = {
   width: {
@@ -51,7 +50,9 @@ const Header = () => (
   <Container>
     <Contents>
       <Link to="/" style={{ height: '14px' }}>
-        Home
+        <Menu>
+          <MenuItem>Home</MenuItem>
+        </Menu>
       </Link>
 
       <Menu>

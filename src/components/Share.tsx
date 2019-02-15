@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import facebookIcon from '../assets/facebook-color.svg'
-import twitterIcon from '../assets/twitter-color.svg'
+// import facebookIcon from '../assets/facebook-color.svg'
+// import twitterIcon from '../assets/twitter-color.svg'
 
-const facebookAppId = '961873467305779'
+// const facebookAppId = '961873467305779'
 
 const Container = styled.div`
   width: 100%;
@@ -54,7 +54,7 @@ const Share = (props: { link: string; title: string }) => (
   <Container>
     <Divider>...</Divider>
     <Content>
-      <Text>If you liked this post, help me spread the word:</Text>
+      {/* <Text>If you liked this post, help me spread the word:</Text>
       <ShareItem
         icon={facebookIcon}
         alt="Share on Facebook"
@@ -68,7 +68,7 @@ const Share = (props: { link: string; title: string }) => (
         link={`https://twitter.com/intent/tweet?text=${encodeURI(
           `${props.title} by @pav_sidhu ${props.link}`
         )}`}
-      />
+      /> */}
     </Content>
   </Container>
 )
