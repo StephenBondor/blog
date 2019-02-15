@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Pav Sidhu',
-    author: 'Pav Sidhu',
+    title: 'Bondor',
+    author: 'Stephen Bondor',
   },
   plugins: [
     {
