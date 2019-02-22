@@ -6,7 +6,7 @@ path: "/labs-week-two"
 
 ## Part 1 - Individual Accomplishments this Week
 
-#### Your team’s github contribution graph here and indicate your Github
+#### Your team’s github contribution graph and your Github:
 
 [StephenBondor](https://github.com/StephenBondor)
 -- [Team Contribution Graph](https://github.com/Lambda-School-Labs/labs-team-home/graphs/contributors)
@@ -63,7 +63,7 @@ So, this is not going to be pretty. Instead of choosing one pull request, I will
 
 But first, a few caveats.
 
-This code works. **Full stop.** It's not without its bugs, just like any other code, but it _works_. So, before we jump into the refactoring, this context needs to be in place. On top of that, their are extra-curricular circumstances I do not know, but, given the circumstances of Lambda Labs--circumstances that my team and I have seen thus far ourselves--we must assume that this pervious code was written under stress, with little time, and suffering from all communication issues inherent in all computer or internet based channels. To be clear, the fact that this code was shipped, in an of itself, is awesome. And like for real, I make no claims that my code is not without bugs, in fact, lol, I expect that my code can be radically refactored to 1/10th the size. All I claim is that this code is better consumable by my team give our context.
+This code works. **Full stop.** It's not without its bugs, just like any other code, but it _works_. So, before we jump into the refactoring, this context needs to be in place. On top of that, their are extra-curricular circumstances I do not know, but, given the circumstances of Lambda Labs--circumstances that my team and I have seen thus far ourselves--we must assume that this pervious code was written under stress, with little time, and suffering from all communication issues inherent in all computer or internet based channels. To be clear, the fact that this code was shipped, in an of itself, is awesome. And for real, I make no claims that my code is not without bugs or any better, in fact, I expect that my code can be radically refactored to 1/10th the size. All I claim is that this refactoring is better consumable by my team give our context.
 
 ---
 
@@ -83,9 +83,13 @@ Specimen #2 is rather interesting. As the famous Ashwin Sundararajan puts it:
 
 > Arrow functions were introduced to javascript because basically most of the other languages had lambda functions and JS didn't. Though they were primarily intended to make FP easier, there was this weird request from the community to somehow have a lexical binding for `this` (again this is a feature for other OOP languages) and ECMA thought it would be a good idea to combine both of the needs. All in a day's work.
 
-Effectively, this code can be refactored by using an JS arrow function. Though it only saves one line of code, it can saves on developer comprehension time as `.bind()` is hard to comprehend, rarely used, and this code is only a state change to begin with.
+Effectively, this code can be refactored by using a JS arrow function. Though it only saves one line of code, it can saves on developer comprehension time as `.bind()` is hard to comprehend, rarely used, and this code is only a state change to begin with.
 
 ![Refactor of Specimen #2](Screen_Shot_2019-02-21_at-10.07.03_PM.png)_Refactor of Specimen #2_
+
+These small fixes can really add up after, say, refactoring a 580 line component with 700+ changes. Um, which is one thing that happened while refactoring...
+
+![Refactor The Mother](Screen_Shot_2019-02-22_at_8.48.05_AM.png)_The mother of all component refactoring_
 
 ---
 
@@ -95,13 +99,13 @@ To be honest, this one took me a long time to figure out. When I first approache
 
 ![Specimen #3b](Screen_Shot_2019-02-20_at_8.44.48_PM.png)_Specimen #3b_
 
-In effect, those 6 lines of code are a JS and @materialUI solution to a CSS @media-query, which say \_when the window width is below a certain level, make the component full screen.
+In effect, those 6 lines of code at the top are a JS and @materialUI solution to a inline CSS @media-query, which says: _when the window width is below a certain level, make the component full screen._
 
 ---
 
 ## Part 2
 
-This weeks prompt should be divided into its appropriate section:
+This weeks prompt should be divided into its appropriate sections:
 
 > > As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences forming a team. What did you do to help the team solidify as a group?
 
@@ -109,11 +113,11 @@ We have all worked together before, so answering this question really comes down
 
 > > What did you do that you now realize caused friction in this process?
 
-Letting people decide their rolls instead of assigning them, and asking for feedback.
+Letting people decide their rolls instead of assigning them and asking for feedback or other suggestions.
 
 > > What are you doing personally to make sure that everyone on the team, including you, has a voice in decision making?
 
-Specifically, calling people out by name, tactfully, and asking for their opinion on a topic. But generally, for someone to contribute and have the information to, they need have continual access to communication channels. Letting team communication break down will kill this goal. Being strictly online, communication is naturally hindered. What is more, the nature of Labs naturally divides many of the groups. This dramatically reduces the knowledge base and magnifies problems. So, I try to get out of the way as much as possible, and put aside differences to get people in front of each other as much as I can.
+First, generally, for someone to contribute, they need the right information set. They must have continual access to communication channels. Letting a teams communication break down will kill this goal and being strictly online, communication is naturally hindered. What is more, the nature of Labs naturally divides many of the groups. This dramatically reduces the knowledge base and magnifies problems. So, I try to get out of the way as much as possible, and put aside differences to get people in front of each other as much as I can. Specifically, when this is in place, I'll calling people out by name, tactfully, and asking for their opinion on a topic.
 
 > > As a group, provide links to evidence that:
 > > Front and back end servers are connected
