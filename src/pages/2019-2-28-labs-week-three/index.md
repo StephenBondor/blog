@@ -13,8 +13,7 @@ path: "/labs-week-three"
 
 #### This week
 
-This week we began the process of refactoring and then adding to the code base we inherited from the previous labs team. Our new deploy is [here](https://team-home-2.netlify.com/).
-Tasks Pulled
+This week we began the process of building our feature set and adding to the code base we inherited from the previous labs team. Our new deploy is [here](https://team-home-2.netlify.com/).
 
 > > List the tasks you pulled this week, and provide a link to the successfully merged PR completing that task and the trello card for that task. You must have at least one front end and one back end. The expected total is 6 with a minimum of 4.
 
@@ -58,13 +57,19 @@ This code garnered a bit of a debate on our team this week. And I think it is wo
 
 For this reason, our code was throwing a warning in the console whenever this component rendered, which is what brought it to my attention. And this is where the intent of this code gets interesting. We are inside a `.map()` method on an array of `things`, and with these combined premises, something very odd begins to develop: **the code could be intended for many very different purposes**.
 
-Perhaps most obvious, purpose of the code is to change the `updatedAt` key on the `thing` object to a human readable date, if it exists. However, when implemented with a `.map()` in this way, this becomes problematic. What is this code actually doing? It is returning `undefined` **in place of the object `thing` for all the things** however, becasue it is a `.map()` it is editing the the variables in memory and thus throws away the return.
+Perhaps most obviously, the purpose of the code could be to change the `updatedAt` key on the `thing` object to a human readable date, if it exists. However, when implemented with a `.map()` in this way, this becomes problematic. What is this code actually doing? It is returning `undefined` **in place of the object `thing` for all the things**. Because it is a `.map()`, it is editing the variables in memory and thus we can discard the return.
 
-Wait what? If this is the purpose of this code, then a fix might look like this:
+Wait what?
+
+If this is the purpose of this code, then a fix of the console warning might look like this:
 
 ![A Potential Fix](Screen_Shot_2019-02-28_at_3.42.43_PM.png)_A Potential Fix_
 
-However, as you may now realize, this now forces an obsolescence of the first purpose of this code, as the updated date then re-writes **the entire rest of the object**. Consequently, I created a pull request with my potential solution, and while reviewing it with my team I brought up the aforementioned issues. To all it was obvious what the code was supposed to do, and considering it was working, it was hard to convince anyone of the inherent problem, but eventually they came around.
+However, as you may realize, this forces a perceived obsolescence of the aforementioned purpose of this code, as the updated date should then re-write **the entire rest of the `thing` object with a date** (which it doesn't do). Consequently, I created a pull request with my potential solution, and while reviewing it with my team I brought up these issues. It was obvious to all what the code was supposed to do--edit the date format, and considering it was working, it was hard to convince anyone of the inherent problem. Namely, this code obfuscates its intended purpose. It communicates poorly to future developers what it's purpose is.
+
+Our final code will probably look something like this:
+
+![Potential Final Code](Screen_Shot_2019-03-01_at_8.58.47_AM.png)_A potential Final Solution_
 
 ---
 
