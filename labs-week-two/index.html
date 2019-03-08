@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/component---src-layouts-index-tsx-8852c5ccc4bbc5bd7506.js" as="script"/><link rel="preload" href="/component---src-templates-post-tsx-3d76f157d7fa140e2cde.js" as="script"/><link rel="preload" href="/path---labs-week-two-28911ebbeecb46ef0a2a.js" as="script"/><link rel="preload" href="/app-b22c117817fa79622d71.js" as="script"/><link rel="preload" href="/commons-967e5303418f76a8ed8e.js" as="script"/><style data-styled-components="bfmQFt kBuPNo eBsTPP eLxNgv iisfDQ iLMYHz dgAvc gZalyC gZAmGa kfPuAM VsnUC jvLTaI hGHaPP gTETVK cfkTsn kasrTC eSSqcR">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/component---src-layouts-index-tsx-8852c5ccc4bbc5bd7506.js" as="script"/><link rel="preload" href="/component---src-templates-post-tsx-3d76f157d7fa140e2cde.js" as="script"/><link rel="preload" href="/path---labs-week-two-aed64927da4cb5593141.js" as="script"/><link rel="preload" href="/app-efbd175fb5e61dbb0437.js" as="script"/><link rel="preload" href="/commons-967e5303418f76a8ed8e.js" as="script"/><style data-styled-components="bfmQFt kBuPNo eBsTPP eLxNgv iisfDQ iLMYHz dgAvc gZalyC gZAmGa kfPuAM VsnUC jvLTaI hGHaPP gTETVK cfkTsn kasrTC eSSqcR">
 /* sc-component-id: sc-bdVaJa */
 .kBuPNo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100%;}
 /* sc-component-id: sc-bwzfXH */
@@ -34,87 +34,288 @@ html{height:100%;font-size:10px;font-family:-apple-system,BlinkMacSystemFont,'Se
 /* sc-component-id: sc-kGXeez */
 .VsnUC{margin:0 12px;}
 /* sc-component-id: sc-kpOJdX */
-.jvLTaI{max-width:700px;font-size:1.6em;line-height:1.8em;color:#333333;padding:0 16px;width:100%;} .jvLTaI > *:not(:first-child){margin-top:32px;} .jvLTaI h2 + *,.jvLTaI h3 + *,.jvLTaI h4 + *,.jvLTaI h5 + *,.jvLTaI h6 + *{margin-top:16px !important;} .jvLTaI ul,.jvLTaI ol{margin-left:1.1em;} .jvLTaI p a{color:#f05f40;-webkit-text-decoration:underline;text-decoration:underline;} .jvLTaI img{width:100%;border-radius:4px;} .jvLTaI img + em,.jvLTaI .gatsby-resp-image-wrapper + em{display:block;width:100%;font-size:1.4rem;font-style:normal;line-height:2rem;text-align:center;margin-top:8px;} .jvLTaI pre{overflow:scroll;padding:12px;font-size:1.4rem;border-radius:4px;} .jvLTaI pre code{padding:0;} .jvLTaI code{background-color:#f8f8f8;padding:4px 8px;font-size:14px;} .jvLTaI blockquote{border-left:8px solid #f05f40;color:#757575;font-style:italic;} .jvLTaI blockquote p{background-color:white;padding-left:8px;} .jvLTaI blockquote p:not(:first-child){margin-top:16px;} .jvLTaI iframe{border:none;}</style><title data-react-helmet="true">Labs Week Two | Bondor</title><link data-react-helmet="true" rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAKdJREFUOBHt0TEOgkAQheFFTahtKExMTGyMR7DxBpzCe3kB7kFhLZ2JjRQW2hJU8H8BinV34wV4yRfIMIHZwZgxUWAFE+ox9LxCA2+m3qoxC+oZntj0blxrWNGXfCkpPnBFgRRzOJk5la7QctHYO2jKI+5wEnrB0Jhz88YBF+gYVkJHGJo0yRlrJHB2FppgRfMSe2xxgvbygZV/v1HjK+p7QRON+dnAF2uxGfP/PnHFAAAAAElFTkSuQmCC"/><link data-react-helmet="true" rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAWVJREFUWAntlD0vBFEUhmdZX6EQQkFkCQp0bEHUfokfo5ZttpWIXrviB1BIRCEa0SnQiY/1sZ6Xmc1kcpd7JjuV+yZP5t4zd865++65N4qC/rsDJaMBvaxPo+9f4M2Yp7283B75DVZYtgjzcAcX0AMT8Ain8Aze0q+xSMXXYAf64QjGYAm2QfnOoFBVyN6Cg1SVAcaXcAujqfifQ9ln1avjgyaxJ5iEEcf7jqE8G/h0ZJsjJmeO4cHxvmPI2oTpRLJ6FdSAeqofdsHUhHkcoMa31ISyfBbUfOcwHI95FCcVzTbhNLE6nMAmFCrXBlRQx1Mb29PEV3n+At1+UvL8mUVR0pzjScDnmWcDg3HioUyBLebv0MjEf51aToEaTVfxepxRt+IG6F6YgirswyF4S0l9pbXLMAPXcAP30AcLcAU10G0YFBzwdsDShEqqo6ej+6FJN2Q5hqqnjtdtFxQcCA4EB7rmwBdOqSyiVm4DogAAAABJRU5ErkJggg=="/><link data-react-helmet="true" rel="icon" type="image/png" sizes="48x48" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAbpJREFUaAXtlrtKxEAUhtcb3lAEFUFF1guIlWCz4isIlmLnG4hY2Nn4EIJgsQ9g4zNYWAtaKQgrggqiiBdEvHz/bgZcmW0mEwl4fvgy2dlkcs6fmZMpFEzmgDlgDpgD5oA5YA6YA+aAORDoQFPgfb7bOukchFZoS1qdv8IT3MEbRFXMBBR8CRZgBhT4LnxCL8zDBRyAkomiliij1AaRGR8wCmughLbhHuT8GKzDMBzCO+RSc0T1BVe/ouvjt5zXdNJbiqLmKKPUD6Kp49MDnTfQDeO+C0L6skhAc96ndjq1Fp7hzHdBSJ+qxF+on4esgILfgxOIoiwTkOOLMARF0OJV8GV4gSjKYgq5wLSQtWiv4RRUeaZhGTSVcisF6atCegM7UIFNyK0aJaCA9aFTcpfQA6mVxRRyX3fX/gxS7ksjoHKaWlkk4Mb0feW1oKVzeKyepTy4h6Ucpu52lUxJDndVz2qHDppVUAUqJy1NOsUso5OEMgtLSUjanW7AMWh3WgTth7ZgH6LIN09DB1aVmYIJcGXylvMKyKgB0HbiCBptN/jLZA6YA+aAOWAOmAPmgDlgDpgD5sA/ceAbj+g786g/aKYAAAAASUVORK5CYII="/><meta data-react-helmet="true" name="theme-color" content="#f05f40"/><meta data-react-helmet="true" name="description" content="Part 1 - Individual Accomplishments this Week Your team’s github contribution graph here and indicate your Github StephenBondor Team Contribution Graph This week This week we began the process of refactoring and then adding to the code base we inherited from the previous labs team. Our new deploy is  here .  Tasks…"/><style id="gatsby-inlined-css">pre{color:#1b1b1b;background-color:#f8f8f8}.token.cdata,.token.doctype,.token.prolog{color:#3ea7bb}.token.block-comment,.token.comment,.token.punctuation{color:#5f6364}.token.atrule,.token.attr-value,.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.keyword,.token.number,.token.property,.token.symbol,.token.tag{color:#f05f40}.token.attr-name,.token.builtin,.token.char,.token.class-name,.token.function,.token.inserted,.token.selector,.token.string{color:#3ea7bb}.token.entity,.token.important,.token.operator,.token.regex,.token.url,.token.variable{color:#9756e1}.language-css .token.string,.style .token.string{color:#3ea7bb}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.namespace{opacity:.7}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}</style></head><body><div id="___gatsby"><div class="sc-dnqmqq bfmQFt" data-reactroot="" data-reactid="1" data-react-checksum="-1082281893"><!-- react-empty: 2 --><header class="sc-bdVaJa kBuPNo" data-reactid="3"><div class="sc-bwzfXH eBsTPP" data-reactid="4"><a style="height:14px;" href="/" data-reactid="5"><ul class="sc-htpNat eLxNgv" data-reactid="6"><li class="sc-bxivhb iisfDQ" data-reactid="7">Home</li></ul></a><ul class="sc-htpNat eLxNgv" data-reactid="8"></ul></div></header><div class="sc-jzJRlG iLMYHz" data-reactid="9"><!-- react-empty: 10 --><header class="sc-cSHVUG dgAvc" data-reactid="11"><div class="sc-kAzzGY gZalyC" data-reactid="12"><h1 class="sc-chPdSV gZAmGa" data-reactid="13">Labs Week Two</h1><div class="sc-kgoBCf kfPuAM" data-reactid="14"><div data-reactid="15">21st February 2019</div><div class="sc-kGXeez VsnUC" data-reactid="16">•</div><div data-reactid="17">5 min read</div></div></div></header><article class="sc-kpOJdX jvLTaI" data-reactid="18"><h2>Part 1 - Individual Accomplishments this Week</h2>
-<h4>Your team’s github contribution graph here and indicate your Github</h4>
-<p><a href="https://github.com/StephenBondor">StephenBondor</a></p>
-<p><a href="https://github.com/Lambda-School-Labs/labs-team-home/graphs/contributors">Team Contribution Graph</a></p>
+.jvLTaI{max-width:700px;font-size:1.6em;line-height:1.8em;color:#333333;padding:0 16px;width:100%;} .jvLTaI > *:not(:first-child){margin-top:32px;} .jvLTaI h2 + *,.jvLTaI h3 + *,.jvLTaI h4 + *,.jvLTaI h5 + *,.jvLTaI h6 + *{margin-top:16px !important;} .jvLTaI ul,.jvLTaI ol{margin-left:1.1em;} .jvLTaI p a{color:#f05f40;-webkit-text-decoration:underline;text-decoration:underline;} .jvLTaI img{width:100%;border-radius:4px;} .jvLTaI img + em,.jvLTaI .gatsby-resp-image-wrapper + em{display:block;width:100%;font-size:1.4rem;font-style:normal;line-height:2rem;text-align:center;margin-top:8px;} .jvLTaI pre{overflow:scroll;padding:12px;font-size:1.4rem;border-radius:4px;} .jvLTaI pre code{padding:0;} .jvLTaI code{background-color:#f8f8f8;padding:4px 8px;font-size:14px;} .jvLTaI blockquote{border-left:8px solid #f05f40;color:#757575;font-style:italic;} .jvLTaI blockquote p{background-color:white;padding-left:8px;} .jvLTaI blockquote p:not(:first-child){margin-top:16px;} .jvLTaI iframe{border:none;}</style><title data-react-helmet="true">Labs Week Two | Bondor</title><link data-react-helmet="true" rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAKdJREFUOBHt0TEOgkAQheFFTahtKExMTGyMR7DxBpzCe3kB7kFhLZ2JjRQW2hJU8H8BinV34wV4yRfIMIHZwZgxUWAFE+ox9LxCA2+m3qoxC+oZntj0blxrWNGXfCkpPnBFgRRzOJk5la7QctHYO2jKI+5wEnrB0Jhz88YBF+gYVkJHGJo0yRlrJHB2FppgRfMSe2xxgvbygZV/v1HjK+p7QRON+dnAF2uxGfP/PnHFAAAAAElFTkSuQmCC"/><link data-react-helmet="true" rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAWVJREFUWAntlD0vBFEUhmdZX6EQQkFkCQp0bEHUfokfo5ZttpWIXrviB1BIRCEa0SnQiY/1sZ6Xmc1kcpd7JjuV+yZP5t4zd865++65N4qC/rsDJaMBvaxPo+9f4M2Yp7283B75DVZYtgjzcAcX0AMT8Ain8Aze0q+xSMXXYAf64QjGYAm2QfnOoFBVyN6Cg1SVAcaXcAujqfifQ9ln1avjgyaxJ5iEEcf7jqE8G/h0ZJsjJmeO4cHxvmPI2oTpRLJ6FdSAeqofdsHUhHkcoMa31ISyfBbUfOcwHI95FCcVzTbhNLE6nMAmFCrXBlRQx1Mb29PEV3n+At1+UvL8mUVR0pzjScDnmWcDg3HioUyBLebv0MjEf51aToEaTVfxepxRt+IG6F6YgirswyF4S0l9pbXLMAPXcAP30AcLcAU10G0YFBzwdsDShEqqo6ej+6FJN2Q5hqqnjtdtFxQcCA4EB7rmwBdOqSyiVm4DogAAAABJRU5ErkJggg=="/><link data-react-helmet="true" rel="icon" type="image/png" sizes="48x48" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAAbpJREFUaAXtlrtKxEAUhtcb3lAEFUFF1guIlWCz4isIlmLnG4hY2Nn4EIJgsQ9g4zNYWAtaKQgrggqiiBdEvHz/bgZcmW0mEwl4fvgy2dlkcs6fmZMpFEzmgDlgDpgD5oA5YA6YA+aAORDoQFPgfb7bOukchFZoS1qdv8IT3MEbRFXMBBR8CRZgBhT4LnxCL8zDBRyAkomiliij1AaRGR8wCmughLbhHuT8GKzDMBzCO+RSc0T1BVe/ouvjt5zXdNJbiqLmKKPUD6Kp49MDnTfQDeO+C0L6skhAc96ndjq1Fp7hzHdBSJ+qxF+on4esgILfgxOIoiwTkOOLMARF0OJV8GV4gSjKYgq5wLSQtWiv4RRUeaZhGTSVcisF6atCegM7UIFNyK0aJaCA9aFTcpfQA6mVxRRyX3fX/gxS7ksjoHKaWlkk4Mb0feW1oKVzeKyepTy4h6Ucpu52lUxJDndVz2qHDppVUAUqJy1NOsUso5OEMgtLSUjanW7AMWh3WgTth7ZgH6LIN09DB1aVmYIJcGXylvMKyKgB0HbiCBptN/jLZA6YA+aAOWAOmAPmgDlgDpgD5sA/ceAbj+g786g/aKYAAAAASUVORK5CYII="/><meta data-react-helmet="true" name="theme-color" content="#f05f40"/><meta data-react-helmet="true" name="description" content="Part 1 - Individual Accomplishments this Week Your team’s github contribution graph and your Github: StephenBondor 
+—  Team Contribution Graph This week This week we began the process of refactoring and then adding to the code base we inherited from the previous labs team. Our new deploy is  here . Tasks Pulled List…"/><style id="gatsby-inlined-css">pre{color:#1b1b1b;background-color:#f8f8f8}.token.cdata,.token.doctype,.token.prolog{color:#3ea7bb}.token.block-comment,.token.comment,.token.punctuation{color:#5f6364}.token.atrule,.token.attr-value,.token.boolean,.token.constant,.token.deleted,.token.function-name,.token.keyword,.token.number,.token.property,.token.symbol,.token.tag{color:#f05f40}.token.attr-name,.token.builtin,.token.char,.token.class-name,.token.function,.token.inserted,.token.selector,.token.string{color:#3ea7bb}.token.entity,.token.important,.token.operator,.token.regex,.token.url,.token.variable{color:#9756e1}.language-css .token.string,.style .token.string{color:#3ea7bb}.token.important{font-weight:400}.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.namespace{opacity:.7}.token.cr:before,.token.lf:before,.token.tab:not(:empty):before{color:#e0d7d1}</style></head><body><div id="___gatsby"><div class="sc-dnqmqq bfmQFt" data-reactroot="" data-reactid="1" data-react-checksum="-1021461571"><!-- react-empty: 2 --><header class="sc-bdVaJa kBuPNo" data-reactid="3"><div class="sc-bwzfXH eBsTPP" data-reactid="4"><a style="height:14px;" href="/" data-reactid="5"><ul class="sc-htpNat eLxNgv" data-reactid="6"><li class="sc-bxivhb iisfDQ" data-reactid="7">Home</li></ul></a><ul class="sc-htpNat eLxNgv" data-reactid="8"></ul></div></header><div class="sc-jzJRlG iLMYHz" data-reactid="9"><!-- react-empty: 10 --><header class="sc-cSHVUG dgAvc" data-reactid="11"><div class="sc-kAzzGY gZalyC" data-reactid="12"><h1 class="sc-chPdSV gZAmGa" data-reactid="13">Labs Week Two</h1><div class="sc-kgoBCf kfPuAM" data-reactid="14"><div data-reactid="15">21st February 2019</div><div class="sc-kGXeez VsnUC" data-reactid="16">•</div><div data-reactid="17">6 min read</div></div></div></header><article class="sc-kpOJdX jvLTaI" data-reactid="18"><h2>Part 1 - Individual Accomplishments this Week</h2>
+<h4>Your team’s github contribution graph and your Github:</h4>
+<p><a href="https://github.com/StephenBondor">StephenBondor</a>
+— <a href="https://github.com/Lambda-School-Labs/labs-team-home/graphs/contributors">Team Contribution Graph</a></p>
 <h4>This week</h4>
-<p>This week we began the process of refactoring and then adding to the code base we inherited from the previous labs team. Our new deploy is <a href="https://team-home-2.netlify.com/">here</a>. </p>
+<p>This week we began the process of refactoring and then adding to the code base we inherited from the previous labs team. Our new deploy is <a href="https://team-home-2.netlify.com/">here</a>.</p>
 <h4>Tasks Pulled</h4>
+<blockquote>
 <blockquote>
 <p>List the tasks you pulled this week, and provide a link to the successfully merged PR completing that task and the trello card for that task. You must have at least one front end and one back end. The expected total is 6 with a minimum of 4.</p>
 </blockquote>
+</blockquote>
 <p><strong>Ticket 1</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/278">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 2</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 2</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/279">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 3</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 3</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/280">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 4</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 4</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/284">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 5</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 5</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/290">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 6</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 6</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/292">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 7</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 7</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/295">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 8</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 8</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/302">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 9</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 9</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/307">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 10</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 10</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/309">Github</a>
-<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
-<p><strong>Ticket 11</strong>
+<a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a>
+<strong>Ticket 11</strong>
 <a href="https://github.com/Lambda-School-Labs/labs-team-home/pull/314">Github</a>
 <a href="https://trello.com/b/Ir0KPUDw/labs10-team-home-2">Trello</a></p>
 <h4>Detailed Analysis</h4>
 <blockquote>
+<blockquote>
 <p>Pick one of your tickets and provide a detailed analysis of the work you did. This should be approximately ¼ page of text, and at least three screenshots.</p>
 </blockquote>
-<h5>Code Deprecation, Refactoring, and Standardizing</h5>
-<p>So, this is not going to be pretty. Instead of choosing one pull request, I will be referring to many of the early pull requests this week that comprise many different issues which I hope to shed light on, that all flow from the topic of refactoring inherited code. </p>
-<p>But first, a few caveats. </p>
-<p>This code works. Full stop. It’s not without its bugs, just like any other code, but it <em>works</em>. So, before we jump into the refactoring this context needs to be in place. On top of that, their are extra-curricular circumstances I do not know, but, given the circumstances of this project—circumstances that my team and I have seen thus far ourselves—we must assume that this pervious code was written under stress, with little time, and suffering from all communication issues inherent in all computer or internet based channels. To be clear, the fact that this code was shipped, in an of itself, is awesome. </p>
-<p>But lets dive in. </p>
-<h6></h6>
-<p>![Specimen #1](Screen Shot 2019-02-15 at 2.00.15 PM.png)<em>Specimen #1</em></p>
-<p>This is what it is like trying to understand code you have no idea about. I can not even speak to the validity of these comments as they were written but that is a part of the process. Most of the week felt like this:</p>
-<p><img src="https://abstrusegoose.com/strips/you_down_wit_OPC-yeah_you_know_me.png" alt="Other peoples code"></p>
-<p>But there is no other way to do it to learn the frameworks needed.</p>
-<h2>Part 2</h2>
-<blockquote>
-<p>As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences forming a team. What did you do to help the team solidify as a group? What did you do that you now realize caused friction in this process? What are you doing personally to make sure that everyone on the team, including you, has a voice in decision making?
-As a group, provide links to evidence that:
-Front and back end servers are connected
-Users can create accounts and log in through the front end via OAuth
-All APIs and services are connected and can be interacted with through the front end. A test message is acceptable to meet this requirement</p>
 </blockquote>
-<p>In pursuit of this end I am writing this blog post.</p>
-<p>This week was a difficult week. We spent most of the week trying to make up the technical debt we inherited from a project built on graphQL and mongoDB, two frameworks which no one in our group understood on Monday. However, here on Friday, I have deployed this very blog using graphQL.</p>
-<h3>What Am I Doing?</h3>
-<p>As the self-proclaimed team organizational lead, last week, I took it upon myself to assign roles in our group and attempt to divide labor up and define rolls. I also lightly influenced the composition of our team by recruiting some of the best developers in our program in the fields our team composition may have been lacking in.</p>
-<h3>TDD</h3>
-<p>As a group we (mostly my awesome team) authored our Technical Design Document on Monday and Tuesday, to meet our specifications. My personal contribution to this was giving the final read over and presenting the document and our plan to our Client in a 15 minute (ish) presentation.</p>
-<p>In preparation for this, we played around with competitive products and got a feel for the kind of experience we were tasked with building.</p>
-<p>We were accepted immediately, and moved onto development.</p>
-<h3>Study</h3>
-<p>Upon gaining access to the repository, we began the long slog up hill trying to wrap our heads around the entirely foreign tech stack we now had to digest in days. In pursuit of this, much of time I spent this week was working through <a href="https://www.howtographql.com/basics/2-core-concepts/">this tutorial</a> on graphQL, which is excellent.</p>
-<h3>Deploy</h3>
-<p>It took us Tuesday Wednesday and Thursday to re-deploy the app (and rebuild our understanding) but we got it done.</p>
-<p><a href="http://team-home-2-graphql-mongodb.herokuapp.com">Server</a></p>
-<p><a href="http://team-home-2.netlify.com">Front End</a></p>
-<p>Unfortunately, issues with Auth0 have been preventing us from logging in. We haev created a few work around solutions — including depricating all the authentication logic and code (yikes) — but we hope to soon find a solution here.</p>
-<p>Seeing as how this project was given to us as a completed project, we did not need to build or touch any of the user models.</p></article><div class="sc-iwsKbI hGHaPP" data-reactid="19"><div class="sc-gqjmRU gTETVK" data-reactid="20">...</div><div class="sc-gZMcBi cfkTsn" data-reactid="21"></div></div></div><footer class="sc-ifAKCX kasrTC" data-reactid="22"><div class="sc-EHOje eSSqcR" data-reactid="23"></div></footer></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-b22c117817fa79622d71.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","30862416422887":"component---src-templates-post-tsx-3d76f157d7fa140e2cde.js","178469467687848":"component---src-pages-404-tsx-e617d1b92713a9f7156f.js","221374088121123":"component---src-pages-index-tsx-335c338f89608da9ec5f.js","60335399758886":"path----557518bd178906f8d58a.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","59038039739807":"path---labs-week-one-810c634890bcba5e0142.js","274773749285206":"path---labs-week-two-28911ebbeecb46ef0a2a.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-7ffc8022b576519b9f69.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","22676092666560":"component---src-layouts-index-tsx-8852c5ccc4bbc5bd7506.js"}/*]]>*/</script><script>
+<h5>Code Deprecation, Refactoring, and Standardizing</h5>
+<p>So, this is not going to be pretty. Instead of choosing one pull request, I will be referring to many of the early pull requests this week that comprise many different issues which I hope to shed light on, that all flow from the topic of refactoring inherited code.</p>
+<p>But first, a few caveats.</p>
+<p>This code works. <strong>Full stop.</strong> It’s not without its bugs, just like any other code, but it <em>works</em>. So, before we jump into the refactoring, this context needs to be in place. On top of that, their are extra-curricular circumstances I do not know, but, given the circumstances of Lambda Labs—circumstances that my team and I have seen thus far ourselves—we must assume that this pervious code was written under stress, with little time, and suffering from all communication issues inherent in all computer or internet based channels. To be clear, the fact that this code was shipped, in an of itself, is awesome. And for real, I make no claims that my code is not without bugs or any better, in fact, I expect that my code can be radically refactored to 1/10th the size. All I claim is that this refactoring is better consumable by my team give our context.</p>
+<hr>
+<h4>So lets dive in…</h4>
+<p>
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 170.28985507246378%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAACXBIWXMAABYlAAAWJQFJUiTwAAADyklEQVRIx42W6ZqyOBCFvZF5xo19SQIhbKJ+Pfd/TWdORbHh0279UQYQKlWpU2+yUWmIa1PjNDg0TqOuMrQcVRKi0iHqOkKWBQjDrbco2iGO936cr5e2ifiTRnsUVYly7JBxDIsYablFobYoswhKJ9Amg61LFFn40tHDYZIcEIvxpdzk0H3FKEtUlg6alNc5oyxgqwJFHiHlu28dzhaFO0ayxXlKcT4ZjhbWlmgaBcWoP0p5diY3eRkjV5FPtUgPKBmRUkxXp6vIPopQbrI8hGoM8lqh7DjaglHtniL7ydnaYfL90E0B2jOjq0Pe79bpRfd04937CP3ID+y4x3DZY+oyGBN72eT36kbzx8vr3xymyZGFCdH0ERyr66hJKUzXViiS4OZodvaiMM8Rcs36WrPCPaapxTBYdF2Fr/8mOs0o9pTajP1S/B2dOF85lHVM06OXiZhhhI0UicUKgq0vUCRrGN4+nou1LNqiKDdxlxRwfTmh/nNGdR7RDDmsiyidANpSSuYAw1GXR1TSCIxYhD930Nqh12ICO7Rw1xHtZUA3aLRdidrGMO0eVXNkoQJkzEYin23W6apTZF0KxRmHBv2XZqUruLZkhCESCj0M7gUJZyltH5J6Sln+TDirT5kVrUgdzS6RTnkHhFVRfPnpsCBNZM3MNCBjp8izIPj3hq1Vl/zeMZuSsxvBVUGScP1m0b6afZnaj3Ao0wB9IqnlSAiDeBHFb6n92MvfKecwlwlq6JCSh4XZUx5sQ535ThFrnfEE+ow2LEosbWcT9E2BrtfoO83i5Dej42Uvv+XhTTYULlnYnwKMBMM4GB+Z9HO5rPRnEd40WFA2cXbknwGfB540Yqu1+xSwyX0tda8oIa4XOySK1kX4HLAPHu7QnPboTkdW/vDYPsVmwHrHHwOW61j1BOx1j9ERsIIr7jWKFoXfrfYg9zseSpNXJoXrBarGs9A5henUomIDZJwwiQ+f8dCP5N7A1juPjlWuMfQ1Wjqepo77dHyLOI1XnfMSDjO+CrZfQ2eWptsajrtfStIcD//cd8DbBiUgWUtu/4qHlA4FXBMQzdcVlp3jxhw9zTlycuRytEdYmgcsJWZIJaH73EHPEYpDHpzaq0N3aQlXHqB4JNF1ANMQsDw8GSItl0MAs5nB+pTyLJmML9quRn9W6AflAes6Cr6UychL0llzUkG/eXGi2Dw2eTksEWGazpTV7I7Qb6myaSXx8b457Twbl9r8G2cbuZGPFI9qAtiys8jYLQmfrXT3Ic42c6+Kg3h2spj5YdHP3bG0/wE/h/IUJqDO1AAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Specimen #1"
+        title=""
+        src="/static/Screen_Shot_2019-02-15_at_2.00.15_PM-2e3496dc7be1c9a0673cec86e0ed07a6-e3b29.png"
+        srcset="/static/Screen_Shot_2019-02-15_at_2.00.15_PM-2e3496dc7be1c9a0673cec86e0ed07a6-6572b.png 175w,
+/static/Screen_Shot_2019-02-15_at_2.00.15_PM-2e3496dc7be1c9a0673cec86e0ed07a6-e1ddf.png 350w,
+/static/Screen_Shot_2019-02-15_at_2.00.15_PM-2e3496dc7be1c9a0673cec86e0ed07a6-e3b29.png 700w,
+/static/Screen_Shot_2019-02-15_at_2.00.15_PM-2e3496dc7be1c9a0673cec86e0ed07a6-1eceb.png 1050w,
+/static/Screen_Shot_2019-02-15_at_2.00.15_PM-2e3496dc7be1c9a0673cec86e0ed07a6-605e9.png 1380w"
+        sizes="(max-width: 700px) 100vw, 700px"
+      />
+    </span>
+  </span>
+  <em>Specimen #1</em></p>
+<p>This is one of two nearly identical components found in two files. Each renders according to if the user is the creator, or owner, of the content. As you can see, there are two eerily similar components rendered conditionally. Considering that together these components represent 120 lines of code, it seemed to me to be an easy win for the development teams code-consumption time to refactor this code into ~40 lines:</p>
+<p>
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 119.30501930501931%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAABYlAAAWJQFJUiTwAAAC6klEQVQ4y4VVWXbbMBDLSdpYiymSIkVS1GLHcbf0o73/fVCQspwodtKPeaMVGmAwowcrKkTVQLV7iGYHxdCywn5fMHaMx2vU9dechdhdo2mKa07xoJoSnVVwpwP8ecZ0DJgPEWGs0A8lomsRB4sYLQ6HHt5KNASQsrgBy4CNLJeLokBwBn7oIfmSbgu0poRh5V3X5HBOwvJcqQrGLPkGUBIwxXpB86UYJabeYhgtAoGq6stduncpvwXL4GqH+VTh+w+Fb08e53PEMHQYRwer9zcgdyvMJ9SkVTWC7dgYPtg8ZhmSJIlaCnkH4EPA9HDbaWgjIS4dFqLYUmy2L98D3VDWpoElPTs7+Ocehhruqd0KuHyE+RMdXytMNmBFSpd4eqkxHmt0XsCyKZrW0qpgp2soPt+26XwJtbrkhnL2VZnz8YWgbMx59sz0JH06BIXYC5q+hLVVBjUtsyo/73ISvwsl+rFG7xSCb+EDzU0bKU7QomOZ2ezfUF5pb5qSOp06PLA5juYeOCGB2XcSoW8xs2LjChpcwXJc3+p3o2FzyaZTOD7PGI6RVQb03uZRdLqBNzWmScJojiX1HQaRKQ9RkM0+V72hrHjTzRHz7184/v2D4dcJ0zeCUM8xEDDyfl/Cj5xxzvngDafJZSbT4Nik6lZDGyzG04TxPKF/cghTDesLWM7uOnp5+4jHu57cAibK/GqYOhx/OkyjIRWBw7PIne1o+lanZSHhzK2Gm6ZkY1tuFZbuo8vdNRxF3aQm0H/0YduKTMvyOcvja4fF+wrlUl1Pa1int2N28WeeZblaKxWx2mU7klfAdNLxq44VWq+pWcOdJ/I+TABvo9V1Bn6/GN5NSpmXQaMLaidwOnR4OlLHqJfrF2qf7cINYLohGWk+fdxhOpSYgsbERZF24TT5zT68B7b8Ai7VmdS5sUccDzw2uarl53R/s3y0yh6SJgnM0tApJLVTjPUn9Nnu+wCwev1qMu4aH2j0v/gHI9/HDt+o8Y4AAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Refactor of Specimen #1"
+        title=""
+        src="/static/Screen_Shot_2019-02-21_at_10.09.12_PM-67d1a862b1937b1a9eb7276da481296b-e3b29.png"
+        srcset="/static/Screen_Shot_2019-02-21_at_10.09.12_PM-67d1a862b1937b1a9eb7276da481296b-6572b.png 175w,
+/static/Screen_Shot_2019-02-21_at_10.09.12_PM-67d1a862b1937b1a9eb7276da481296b-e1ddf.png 350w,
+/static/Screen_Shot_2019-02-21_at_10.09.12_PM-67d1a862b1937b1a9eb7276da481296b-e3b29.png 700w,
+/static/Screen_Shot_2019-02-21_at_10.09.12_PM-67d1a862b1937b1a9eb7276da481296b-1eceb.png 1050w,
+/static/Screen_Shot_2019-02-21_at_10.09.12_PM-67d1a862b1937b1a9eb7276da481296b-f5de9.png 1400w,
+/static/Screen_Shot_2019-02-21_at_10.09.12_PM-67d1a862b1937b1a9eb7276da481296b-014d0.png 1554w"
+        sizes="(max-width: 700px) 100vw, 700px"
+      />
+    </span>
+  </span>
+  <em>Refactor of Specimen #1</em></p>
+<hr>
+<p>
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 29.5169946332737%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAABYlAAAWJQFJUiTwAAABBklEQVQY011Q2XKDMAzMnxRj8IE5ApjLQMi0zf9/0lYWpZPpw85Ku7Ik6+ZKBedybF2C0Cts20QY8f06sFPcGImjTzB7i22fcRwLvj537A8Pv6YIm8WjEwhjCWMz3GKzpilgTYqCYEnUMS4yHmR01FK4QrJmrWQ9whanx2+JDTE3LJyEdWQ4QUWCTEmmhFIJlE6QE+d5wrnWgjnPP07/DdHjhncvsWwplkNifSnsq8E0Vyh/z1HXBlWlOb82j1rML/DGtAg3jMXhLjC1Gd2FEFIMxMPQYBxbvltECB5dV2KaWjyfAcvSM9Z14No4hBt6X9NBJa+sVUoQJ7T4++L7ty7tfxxv+AOIIrUcCw3fbwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Specimen #2"
+        title=""
+        src="/static/Screen_Shot_2019-02-18_at_6.20.19_PM-1876a71e102d4fb39a12b6d86cbaedfe-e3b29.png"
+        srcset="/static/Screen_Shot_2019-02-18_at_6.20.19_PM-1876a71e102d4fb39a12b6d86cbaedfe-6572b.png 175w,
+/static/Screen_Shot_2019-02-18_at_6.20.19_PM-1876a71e102d4fb39a12b6d86cbaedfe-e1ddf.png 350w,
+/static/Screen_Shot_2019-02-18_at_6.20.19_PM-1876a71e102d4fb39a12b6d86cbaedfe-e3b29.png 700w,
+/static/Screen_Shot_2019-02-18_at_6.20.19_PM-1876a71e102d4fb39a12b6d86cbaedfe-1eceb.png 1050w,
+/static/Screen_Shot_2019-02-18_at_6.20.19_PM-1876a71e102d4fb39a12b6d86cbaedfe-7b034.png 1118w"
+        sizes="(max-width: 700px) 100vw, 700px"
+      />
+    </span>
+  </span>
+  <em>Specimen #2</em></p>
+<p>Specimen #2 is rather interesting. As the famous Ashwin Sundararajan puts it:</p>
+<blockquote>
+<p>Arrow functions were introduced to javascript because basically most of the other languages had lambda functions and JS didn’t. Though they were primarily intended to make FP easier, there was this weird request from the community to somehow have a lexical binding for <code class="language-text">this</code> (again this is a feature for other OOP languages) and ECMA thought it would be a good idea to combine both of the needs. All in a day’s work.</p>
+</blockquote>
+<p>Effectively, this code can be refactored by using a JS arrow function. Though it only saves one line of code, it can saves on developer comprehension time as <code class="language-text">.bind()</code> is hard to comprehend, rarely used, and this code is only a state change to begin with.</p>
+<p>
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 17.741935483870964%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAsUlEQVQY012PS46DMBQEuUhmAraZCIjxBzAmQKKscv8L1QRLRCiLkkrd7y06s1EQHoJ+FuiLwl9yKnelsQ11JRHihJQ/KPVLWZ4Tm+/Zt2fPqWC6SZaXZFwk8ZYT5pYheOZ5YF1HliUQo8f7a2IcHfd7ZBgMfd+mfvfM12eMVmgnMF2B9gXGlJi2Ss8h2ETX6XdeYW2dfJo6nGs+N1u+kUn1nvGXU6oDh2lHvicfb/buH9vkePuVbsrAAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Refactor of Specimen #2"
+        title=""
+        src="/static/Screen_Shot_2019-02-21_at-10.07.03_PM-223d79bba6b035c29e2fbe272608cc0f-e3b29.png"
+        srcset="/static/Screen_Shot_2019-02-21_at-10.07.03_PM-223d79bba6b035c29e2fbe272608cc0f-6572b.png 175w,
+/static/Screen_Shot_2019-02-21_at-10.07.03_PM-223d79bba6b035c29e2fbe272608cc0f-e1ddf.png 350w,
+/static/Screen_Shot_2019-02-21_at-10.07.03_PM-223d79bba6b035c29e2fbe272608cc0f-e3b29.png 700w,
+/static/Screen_Shot_2019-02-21_at-10.07.03_PM-223d79bba6b035c29e2fbe272608cc0f-25203.png 868w"
+        sizes="(max-width: 700px) 100vw, 700px"
+      />
+    </span>
+  </span>
+  <em>Refactor of Specimen #2</em></p>
+<p>These small fixes can really add up after, say, refactoring a 580 line component with 700+ changes. Um, which is one thing that happened while refactoring…</p>
+<p>
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 11.181434599156118%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAdklEQVQI1x2KyxaDMAgF/f+f66LbHm01D+MjRMDo7haz4AwD09V6gUSQcsC57dBawSw4bES1ke1fytH2TKWRjE9H7c4QUVz3jU60whPh3b+QP1+sheF8hI8Jad0R5wUuzAjmowvoh7H5ZM3jw2+ydsayZbCe+AMP5JazY5SIMgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Refactor The Mother"
+        title=""
+        src="/static/Screen_Shot_2019-02-22_at_8.48.05_AM-610305dafd00766e65b623916f76a3a3-e3b29.png"
+        srcset="/static/Screen_Shot_2019-02-22_at_8.48.05_AM-610305dafd00766e65b623916f76a3a3-6572b.png 175w,
+/static/Screen_Shot_2019-02-22_at_8.48.05_AM-610305dafd00766e65b623916f76a3a3-e1ddf.png 350w,
+/static/Screen_Shot_2019-02-22_at_8.48.05_AM-610305dafd00766e65b623916f76a3a3-e3b29.png 700w,
+/static/Screen_Shot_2019-02-22_at_8.48.05_AM-610305dafd00766e65b623916f76a3a3-81108.png 948w"
+        sizes="(max-width: 700px) 100vw, 700px"
+      />
+    </span>
+  </span>
+  <em>The mother of all component refactoring</em></p>
+<hr>
+<p>
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 700px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 51.68141592920353%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABkklEQVQoz41TW27bMBD0RYJKfIoUSZGSaFG2Ayf5aJGf3qD3P8ZkydhJgBZFPlYDSavh7MzqYA0HVwy/9oA/rxfEGBDCADMIaM2hVEfYYxjYB/6vDpouS1TYV4s8O8xxREwWfmKImWFKGoYO/Q5ZI7RWwlKzHyV9qDBa1RSOnsERqfPyW4T394cQOeaNY1o7zKVHXAScU9TAaNy+VW1+v+/+WV8tOQyG4bhIPF4s9heJ8iRQrgr5zLEUgeNG43tSbrqGYTJtgumG3mtYKz4VGiMweYuyzYirIIXk23z3T2JdNOKkkFyHLXuUfcG2JZQyN8x5asQfhKPjsL7DYB9gXQ9DNZKfWglI0UOIDlJS0eickPOHv0rKH5+ENc3T1eHl5xHbVeL0ylCeNZaNVGWORCnntaqUOFJvVXY+Z5xOa8O70iaietj2jdQYLZvxWt0SM6TWVmQt5Xq6GUg9+VXL3qq+u29BIwyJ9nBnlDRheU+8+hjoxDFYJE/h0CYkeh4ovPoD/L4EpNk3ZesamsrqZQ3qDUGyKw9u2ZtLAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Specimen #3"
+        title=""
+        src="/static/Screen_Shot_2019-02-20_at_8.44.37_PM-03212dc7d7c61e4eb3148884e4ac68ca-e3b29.png"
+        srcset="/static/Screen_Shot_2019-02-20_at_8.44.37_PM-03212dc7d7c61e4eb3148884e4ac68ca-6572b.png 175w,
+/static/Screen_Shot_2019-02-20_at_8.44.37_PM-03212dc7d7c61e4eb3148884e4ac68ca-e1ddf.png 350w,
+/static/Screen_Shot_2019-02-20_at_8.44.37_PM-03212dc7d7c61e4eb3148884e4ac68ca-e3b29.png 700w,
+/static/Screen_Shot_2019-02-20_at_8.44.37_PM-03212dc7d7c61e4eb3148884e4ac68ca-1eceb.png 1050w,
+/static/Screen_Shot_2019-02-20_at_8.44.37_PM-03212dc7d7c61e4eb3148884e4ac68ca-94b92.png 1130w"
+        sizes="(max-width: 700px) 100vw, 700px"
+      />
+    </span>
+  </span>
+  <em>Specimen #3</em></p>
+<p>To be honest, this one took me a long time to figure out. When I first approached this component I knew that this particular section was a bit over my head. But, the component was 580 lines long, so their was a good chance that I was not at the level needed to fully get it anyway. However, as I parsed and deconstructed the component, I found that there was only one other place this functionality could interact with, this line:</p>
+<p>
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block; ; max-width: 536px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 8.582089552238806%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAi0lEQVQI1yXMzwqCMADAYR+l2JQFSWL749xKZ2FEFHTr1LFj4Av06r+kTt/ty2wUaC+o3WwrME7SKMVBC0K9xFYSbSqGFAjR4nTJM2143zteZ4dZF2wLSV1WRDuSmTl0+3/WHiU+5oRiRV9LerOgdwrXaE5jTxoiaWeZbp7PY2C6WkKpsHn+Czt/4QtmfEIUWiLurgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Specimen #3b"
+        title=""
+        src="/static/Screen_Shot_2019-02-20_at_8.44.48_PM-70be4a38c884e4efaec9ee3120f746a2-b8569.png"
+        srcset="/static/Screen_Shot_2019-02-20_at_8.44.48_PM-70be4a38c884e4efaec9ee3120f746a2-196f3.png 175w,
+/static/Screen_Shot_2019-02-20_at_8.44.48_PM-70be4a38c884e4efaec9ee3120f746a2-13500.png 350w,
+/static/Screen_Shot_2019-02-20_at_8.44.48_PM-70be4a38c884e4efaec9ee3120f746a2-b8569.png 536w"
+        sizes="(max-width: 536px) 100vw, 536px"
+      />
+    </span>
+  </span>
+  <em>Specimen #3b</em></p>
+<p>In effect, those 6 lines of code at the top are a JS and @materialUI solution to a inline CSS @media-query, which says: <em>when the window width is below a certain level, make the component full screen.</em></p>
+<hr>
+<h2>Part 2</h2>
+<p>This weeks prompt should be divided into its appropriate sections:</p>
+<blockquote>
+<blockquote>
+<p>As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences forming a team. What did you do to help the team solidify as a group?</p>
+</blockquote>
+</blockquote>
+<p>We have all worked together before, so answering this question really comes down to how we picked the group. And to that end, two of our members volunteered, and I reached out to the other 3 to bring them into the fold. In terms of making sure our group has been solidifying, I help make sure that all members are coordinated, and that no member is working on the exact same task, unless that task is particularly difficult.</p>
+<blockquote>
+<blockquote>
+<p>What did you do that you now realize caused friction in this process?</p>
+</blockquote>
+</blockquote>
+<p>Letting people decide their rolls instead of assigning them and asking for feedback or other suggestions.</p>
+<blockquote>
+<blockquote>
+<p>What are you doing personally to make sure that everyone on the team, including you, has a voice in decision making?</p>
+</blockquote>
+</blockquote>
+<p>First, generally, for someone to contribute, they need the right information set. They must have continual access to communication channels. Letting a teams communication break down will kill this goal and being strictly online, communication is naturally hindered. What is more, the nature of Labs naturally divides many of the groups. This dramatically reduces the knowledge base and magnifies problems. So, I try to get out of the way as much as possible, and put aside differences to get people in front of each other as much as I can. Specifically, when this is in place, I’ll calling people out by name, tactfully, and asking for their opinion on a topic.</p>
+<blockquote>
+<blockquote>
+<p>As a group, provide links to evidence that:
+Front and back end servers are connected</p>
+</blockquote>
+</blockquote>
+<p><a href="https://team-home-2.netlify.com/">Front End</a>
+<a href="https://team-home-2-graphql-mongodb.herokuapp.com/graphql">Back End</a></p>
+<blockquote>
+<blockquote>
+<p>Users can create accounts and log in through the front end via OAuth</p>
+</blockquote>
+</blockquote>
+<p><a href="https://team-home-2.netlify.com/">Deploy</a></p>
+<blockquote>
+<blockquote>
+<p>All APIs and services are connected and can be interacted with through the front end. A test message is acceptable to meet this requirement</p>
+</blockquote>
+</blockquote>
+<p>See above.</p></article><div class="sc-iwsKbI hGHaPP" data-reactid="19"><div class="sc-gqjmRU gTETVK" data-reactid="20">...</div><div class="sc-gZMcBi cfkTsn" data-reactid="21"></div></div></div><footer class="sc-ifAKCX kasrTC" data-reactid="22"><div class="sc-EHOje eSSqcR" data-reactid="23"></div></footer></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-efbd175fb5e61dbb0437.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","30862416422887":"component---src-templates-post-tsx-3d76f157d7fa140e2cde.js","178469467687848":"component---src-pages-404-tsx-e617d1b92713a9f7156f.js","221374088121123":"component---src-pages-index-tsx-335c338f89608da9ec5f.js","60335399758886":"path----557518bd178906f8d58a.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","59038039739807":"path---labs-week-one-810c634890bcba5e0142.js","274773749285206":"path---labs-week-two-aed64927da4cb5593141.js","165617402946146":"path---labs-week-three-ccd4e7bf05b696178eb5.js","138056426110888":"path---labs-week-four-f2afc649ab3411cd6838.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","142629428675168":"path---index-2f04624951a6cbd603b6.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","22676092666560":"component---src-layouts-index-tsx-8852c5ccc4bbc5bd7506.js"}/*]]>*/</script><script>
   
   if(true) {
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -125,4 +326,4 @@ All APIs and services are connected and can be interacted with through the front
   if (typeof ga === "function") {
     ga('create', 'UA-41576939-5', 'auto');
       }
-      </script><script>/*<![CDATA[*/!function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",["/commons-967e5303418f76a8ed8e.js","/app-b22c117817fa79622d71.js","/path---labs-week-two-28911ebbeecb46ef0a2a.js","/component---src-templates-post-tsx-3d76f157d7fa140e2cde.js","/component---src-layouts-index-tsx-8852c5ccc4bbc5bd7506.js"])/*]]>*/</script></body></html>
+      </script><script>/*<![CDATA[*/!function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",["/commons-967e5303418f76a8ed8e.js","/app-efbd175fb5e61dbb0437.js","/path---labs-week-two-aed64927da4cb5593141.js","/component---src-templates-post-tsx-3d76f157d7fa140e2cde.js","/component---src-layouts-index-tsx-8852c5ccc4bbc5bd7506.js"])/*]]>*/</script></body></html>

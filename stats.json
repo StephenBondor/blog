@@ -20,9 +20,17 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
+    "path---labs-week-four": [
+      "path---labs-week-four-f2afc649ab3411cd6838.js",
+      "path---labs-week-four-f2afc649ab3411cd6838.js.map"
+    ],
     "path---index": [
-      "path---index-7ffc8022b576519b9f69.js",
-      "path---index-7ffc8022b576519b9f69.js.map"
+      "path---index-2f04624951a6cbd603b6.js",
+      "path---index-2f04624951a6cbd603b6.js.map"
+    ],
+    "path---labs-week-three": [
+      "path---labs-week-three-ccd4e7bf05b696178eb5.js",
+      "path---labs-week-three-ccd4e7bf05b696178eb5.js.map"
     ],
     "commons": [
       "commons-967e5303418f76a8ed8e.js",
@@ -47,9 +55,9 @@
       "component---src-pages-index-tsx-335c338f89608da9ec5f.js.map"
     ],
     "app": [
-      "app-b22c117817fa79622d71.js",
+      "app-efbd175fb5e61dbb0437.js",
       "build-js-styles.css",
-      "app-b22c117817fa79622d71.js.map",
+      "app-efbd175fb5e61dbb0437.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -57,8 +65,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---labs-week-two": [
-      "path---labs-week-two-28911ebbeecb46ef0a2a.js",
-      "path---labs-week-two-28911ebbeecb46ef0a2a.js.map"
+      "path---labs-week-two-aed64927da4cb5593141.js",
+      "path---labs-week-two-aed64927da4cb5593141.js.map"
     ]
   }
 }
