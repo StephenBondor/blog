@@ -96,7 +96,7 @@ The above code needed to be applied to over 30 events. Which was pretty _not dry
 
 > As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to make your product look and feel as good as it works under the hood. Describe how the duties of you and your team shifted tasks shifted towards the front end - and debugging the back end to improve UX.
 
-See above. That said, debugging 30+ unique event entries on the back end was not easy or fun. But in the end, it radically improved the end user experience.
+See the story above. That said, debugging 30+ unique event entries on the back end was not easy or fun. But in the end, it radically improved the end user experience.
 
 > As a group, provide documentation of your progress and remaining tasks:
 > Link to each page and describe any remaining bugs, fixes, or tasks that need to be completed on that page

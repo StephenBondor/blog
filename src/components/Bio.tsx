@@ -38,9 +38,6 @@ const Bio = () => (
     <Description>
       I am learning how to design and build websites at Lambda School. This is a
       first attempt at a blog website using tech I learned like a few hours ago.
-      <br />
-      <br />
-      I dont know what I am doing.
     </Description>
   </Container>
 )

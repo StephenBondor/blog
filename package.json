@@ -1,5 +1,5 @@
 {
-  "name": "blog.pavsidhu.com",
+  "name": "stephenbondor.netlify.com",
   "description": "A place for me to write",
   "version": "4.0.0",
   "author": "Stephen Bondor <bondor@gmail.com>",
@@ -7,8 +7,7 @@
   "keywords": ["gatsby"],
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PavSidhu/blog/.git"
+    "type": "git"
   },
   "scripts": {
     "lint":

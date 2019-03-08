@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 import styles from '../../styles'
-import mediumIcon from '../../assets/medium.svg'
-import githubIcon from '../../assets/github.svg'
-import twitterIcon from '../../assets/twitter.svg'
-import emailIcon from '../../assets/email.svg'
+// import mediumIcon from '../../assets/medium.svg'
+// import githubIcon from '../../assets/github.svg'
+// import twitterIcon from '../../assets/twitter.svg'
+// import emailIcon from '../../assets/email.svg'
 
 const footerStyles = {
   width: {
@@ -42,36 +42,36 @@ const Contents = styled.div`
   }
 `
 
-const SocialList = styled.div`
-  display: none;
+// const SocialList = styled.div`
+//   display: none;
 
-  @media only screen and (min-width: ${styles.width.medium}) {
-    flex: 1;
-    display: flex;
-  }
-`
+//   @media only screen and (min-width: ${styles.width.medium}) {
+//     flex: 1;
+//     display: flex;
+//   }
+// `
 
-const SocialIcon = styled.img`
-  width: 32px;
-  height: 32px;
-  margin: 0 16px;
+// const SocialIcon = styled.img`
+//   width: 32px;
+//   height: 32px;
+//   margin: 0 16px;
 
-  @media only screen and (min-width: ${styles.width.medium}) {
-    width: 24px;
-    height: 24px;
-    margin: 0 32px 0 0;
-  }
-`
+//   @media only screen and (min-width: ${styles.width.medium}) {
+//     width: 24px;
+//     height: 24px;
+//     margin: 0 32px 0 0;
+//   }
+// `
 
-const Text️ = styled.p`
-  font-size: 1.2em;
-  color: ${styles.color.grey};
+// const Text️ = styled.p`
+//   font-size: 1.2em;
+//   color: ${styles.color.grey};
 
-  @media only screen and (min-width: ${styles.width.medium}) {
-    font-size: 1.4em;
-    font-weight: bold;
-  }
-`
+//   @media only screen and (min-width: ${styles.width.medium}) {
+//     font-size: 1.4em;
+//     font-weight: bold;
+//   }
+// `
 
 const Footer = () => (
   <Container>
