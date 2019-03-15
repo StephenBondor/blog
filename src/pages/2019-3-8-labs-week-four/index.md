@@ -1,6 +1,6 @@
 ---
 title: "Labs Week Four"
-date: "2019-03-8"
+date: "2019-03-08"
 path: "/labs-week-four"
 ---
 
